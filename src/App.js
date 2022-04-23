@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Pieces from "./components/Pieces";
 
 function App() {
+  function whiteScoreHandle() {
+    // Click on black pieces
+    console.log("Black piece clicked");
+  }
+
+  function blackScoreHandle() {
+    // Click on white pieces
+    console.log("White piece clicked");
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Pieces scoreHandle={whiteScoreHandle} color="black" />
+      <Pieces scoreHandle={blackScoreHandle} color="white" />
+    </>
   );
 }
 
