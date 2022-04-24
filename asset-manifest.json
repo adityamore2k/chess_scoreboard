@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chess_scoreboard/static/css/main.2c74590e.css",
+    "main.js": "/chess_scoreboard/static/js/main.12adfa31.js",
+    "index.html": "/chess_scoreboard/index.html",
+    "main.2c74590e.css.map": "/chess_scoreboard/static/css/main.2c74590e.css.map",
+    "main.12adfa31.js.map": "/chess_scoreboard/static/js/main.12adfa31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c74590e.css",
+    "static/js/main.12adfa31.js"
+  ]
+}
